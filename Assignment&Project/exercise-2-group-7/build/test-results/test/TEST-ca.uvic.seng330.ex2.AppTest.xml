@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uvic.seng330.ex2.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-25T02:42:52" hostname="LAPTOP-A66517J9" time="0.025">
+  <properties/>
+  <testcase name="appHasAGreeting()" classname="ca.uvic.seng330.ex2.AppTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

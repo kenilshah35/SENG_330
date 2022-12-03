@@ -1,0 +1,19 @@
+ca/uvic/seng330/ex2/Reporter.java
+ ca.uvic.seng330.ex2.Reporter
+ca/uvic/seng330/ex2/App.java
+ ca.uvic.seng330.ex2.App
+ca/uvic/seng330/ex2/Monitor.java
+ ca.uvic.seng330.ex2.Monitor
+ca/uvic/seng330/ex2/SightingPlatform.java
+ ca.uvic.seng330.ex2.SightingPlatform
+ ca.uvic.seng330.ex2.SightingPlatform$Platform
+ca/uvic/seng330/ex2/Location.java
+ ca.uvic.seng330.ex2.Location
+ca/uvic/seng330/ex2/Observation.java
+ ca.uvic.seng330.ex2.Observation
+ ca.uvic.seng330.ex2.Observation$Direction
+ca/uvic/seng330/ex2/Whale.java
+ ca.uvic.seng330.ex2.Whale
+ ca.uvic.seng330.ex2.Whale$Behavior
+ ca.uvic.seng330.ex2.Whale$Confidence
+ ca.uvic.seng330.ex2.Whale$Species

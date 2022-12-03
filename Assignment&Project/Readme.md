@@ -1,0 +1,1 @@
+Collaborated as a contributing member to multiple rotational groups focused on developing a collective whale watching application enabling users to share whale expedition information to the user-base within the city of Victoria. 

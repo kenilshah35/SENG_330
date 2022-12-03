@@ -1,0 +1,24 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /               controllers.Driver.index()
+
+# A controller that takes the request (i.e., user form info)
+POST    /observation/:obsId/whale       controllers.WhaleController.handleResult(request: Request, obsId: Long)
+GET     /observation/:obsId             controllers.ObservationController.showObservation(request: Request, obsId: Long)
+GET     /observation                    controllers.ObservationController.createObservation(request: Request)
+POST    /observation                    controllers.ObservationController.createObservation(request: Request)
+GET     /observation/:obsId/remove_whale/:whaleId   controllers.WhaleController.removeWhale(obsId: Long, whaleId: Long)
+GET     /whales                         controllers.WhaleController.manageRequestType(request: Request)
+GET     /credits                        controllers.Driver.credits()
+GET     /api_guide                      controllers.WhaleAPI.guide()
+GET     /search                         controllers.SearchController.search(request: Request)
+POST    /search                         controllers.SearchController.search(request: Request)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file   controllers.Assets.versioned(path="/public", file: Asset)
+
+
+GET     /fake_data      controllers.Driver.generateFakeData()

@@ -1,0 +1,25 @@
+@import java.util
+
+@(observations: util.List[Observation])
+<table id="observationTable" class="observation-table sortable center">
+    <thead>
+        <tr>
+            <th data-sorter="shortDate" >
+                Date
+            </th>
+            <th>
+                Whales Observed
+            </th>
+            <th>
+                Location
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @observations.map(ob => {
+            views.html.observationRow(ob)
+        })
+    </tbody>
+
+</table>
+

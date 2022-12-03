@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uvic.seng330.ex9.DriverTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-27T20:56:32" hostname="LAPTOP-A66517J9" time="0.383">
+  <properties/>
+  <testcase name="removeIfPredicateAnonymousClass()" classname="ca.uvic.seng330.ex9.DriverTest" time="0.31"/>
+  <testcase name="averageWeight()" classname="ca.uvic.seng330.ex9.DriverTest" time="0.017"/>
+  <testcase name="testHeaviest()" classname="ca.uvic.seng330.ex9.DriverTest" time="0.012"/>
+  <testcase name="sortWorks()" classname="ca.uvic.seng330.ex9.DriverTest" time="0.008"/>
+  <testcase name="findHeavierWorks()" classname="ca.uvic.seng330.ex9.DriverTest" time="0.008"/>
+  <testcase name="testCountBefore()" classname="ca.uvic.seng330.ex9.DriverTest" time="0.008"/>
+  <testcase name="removeIfLambdaExpression()" classname="ca.uvic.seng330.ex9.DriverTest" time="0.008"/>
+  <testcase name="removeIfMethodReferenceExpression()" classname="ca.uvic.seng330.ex9.DriverTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
